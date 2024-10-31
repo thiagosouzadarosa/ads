@@ -1,0 +1,36 @@
+body {
+    background-color: #77DD77; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #5a5a5a;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; 
+    width: 150px; 
+}
+
+.product-table {
+    width: 80%; /* Largura da tabela */
+    margin: 20px auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    text-align: center; /* Centraliza o texto nas células */
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #5a5a5a; /* Borda das células */
+    padding: 10px; /* Espaçamento interno das células */
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
